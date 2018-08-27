@@ -1,0 +1,7 @@
+H:\Study\反射\bin\Debug\反射.exe.config
+H:\Study\反射\bin\Debug\反射.exe
+H:\Study\反射\bin\Debug\反射.pdb
+H:\Study\反射\obj\Debug\反射.csprojAssemblyReference.cache
+H:\Study\反射\obj\Debug\反射.csproj.CoreCompileInputs.cache
+H:\Study\反射\obj\Debug\反射.exe
+H:\Study\反射\obj\Debug\反射.pdb
