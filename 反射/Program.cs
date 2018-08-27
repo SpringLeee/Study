@@ -9,7 +9,7 @@ namespace 反射
 {
     class Program
     {
-        static void Main(string[] args)
+        static async void Main(string[] args)
         {
             //普通调用
             //Thread Th = new Thread(new ThreadStart(newThread));
@@ -74,7 +74,11 @@ namespace 反射
 
            
 
-            
+            var str = await GetGuid();
+
+            Console.WriteLine($" str : {str}");
+            Console.WriteLine("ts");
+           
 
 
 
@@ -93,7 +97,12 @@ namespace 反射
 
         }
 
-        
+        static async Task<string> GetGuid()
+        {
+            await Task.Delay(1000);
+
+            return new Guid().ToString(); 
+        } 
 
 
     }
