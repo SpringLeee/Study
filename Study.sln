@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射", "反射\反射.csproj", "{8B291FD2-E790-4307-AA31-5D8B201ED851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPi", "WebAPi\WebAPi.csproj", "{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8B291FD2-E790-4307-AA31-5D8B201ED851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B291FD2-E790-4307-AA31-5D8B201ED851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B291FD2-E790-4307-AA31-5D8B201ED851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
