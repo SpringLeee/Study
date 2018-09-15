@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "反射", "反射\反射.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPi", "WebAPi\WebAPi.csproj", "{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "控制反转", "控制反转", "{EB978804-A633-4E4B-8568-D85F12389DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac", "Autofac\Autofac.csproj", "{B848C01B-5522-4855-B9CD-1777EED3D586}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92E79FA6-7DDE-4BB4-BD2F-B4266A95FFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B848C01B-5522-4855-B9CD-1777EED3D586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B848C01B-5522-4855-B9CD-1777EED3D586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B848C01B-5522-4855-B9CD-1777EED3D586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B848C01B-5522-4855-B9CD-1777EED3D586}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B848C01B-5522-4855-B9CD-1777EED3D586} = {EB978804-A633-4E4B-8568-D85F12389DDC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F95720C2-BDAF-4B3A-ABA5-E7F92005761F}
